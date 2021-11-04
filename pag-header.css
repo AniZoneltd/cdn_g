@@ -1,0 +1,250 @@
+:root{
+--body: #410099;
+--cont: #18191a;
+--text: #546e7a;
+--link: #410099;
+--titl: #000000;
+--main: #410099;
+--scnd: #e30046;
+--thrd: #ffc72c;
+--gray: #eceff1;
+}
+html, body {
+    max-width: 100%!important;
+    overflow-x: hidden!important;
+    overflow-y: overlay!important;
+}
+.breadcrumb {
+    border-color: var(--gray);
+    display: none;
+}
+.paginadorplay a {
+    color: white!important;
+    
+}
+a, .home-blog-post .entry-date .date, .top-imdb-item:hover>.title a, .module .content .items .item .data h3 a:hover, .head-main-nav ul.main-header li:hover>a, .login_box .box a.register {
+    color: #ffffff;
+}
+.menu-user button.tt-drp-lnk {
+    color: #fbfbfb;
+}
+.cast li a:hover span, .category, .comment-reply-link:before, .episodes-nv a:hover span, .episodes-nv a:hover:before, .menu-user .user-bx span, .meta>span:before, .title span, .title-s:before, .tt-btn.outline:hover, .tt-bx>.title span, .tt-bx>.title>i, .tt-search form button, .tt-search form button:hover, .tt-sheet .menu-user .on .tt-drp-lnk, .tt-sheet .menu-user .tt-drp-lnk:hover, .widget_categories ul>li>a:before, .widget_ttemission ul>li>a:before, blockquote:before {
+    color: #fff;
+}
+.sidebar aside.widget {
+    float: inherit;
+}
+.menu>li {
+    margin-right: 1rem;
+    color: #fffdfd !important;
+}
+.menu li a, .tt-user li a {
+    display: inline-block;
+    vertical-align: top;
+    color: aliceblue;
+}
+.title, .title-s, .widget-title, .widget_tbl th {
+    color: #ffffff !important;
+}
+.title2 {
+width:100%;
+float: left;
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden
+}
+
+#menu-menu-site{display:flex;flex-wrap:wrap}
+
+.tt-player2{position:relative;min-height:10px;max-height:900px;overflow:hidden;white-space:nowrap;font-size:0;text-align:center}
+
+.paginadorplay {
+  display: inline-block;
+}
+
+.paginadorplay a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.paginadorplay a.active {
+  background-color: #641bc4;
+  color: white;
+  border-radius: 5px;
+}
+
+.paginadorplay a:hover:not(.active) {
+  background-color: #641bc4;
+  color: white;
+  border-radius: 5px;
+}
+
+.tt-cont select {
+width: 200px;
+background-color: #f2f2f2;
+}
+
+.mangaarquivo a {
+  padding: 8px;
+  margin: 5px;
+}
+
+html, body {
+margin: 0;
+padding: 0;
+}
+
+* {
+box-sizing: border-box;
+}
+
+.slider {
+width: 100%;
+margin: 0px auto;
+}
+
+.slick-slide {
+margin: 0px 2px;
+}
+
+.slick-slide img {
+width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+color: black;
+}
+.slick-prev:before, .slick-next:before {
+    color: #fdfdfd !important;
+}
+.slick-dots li.slick-active button:before {
+    color: #fff !important;
+}
+/* Paste this css to your style sheet file or under head tag */
+/* This only works with JavaScript, 
+if it's not present, don't show loader22 */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+    display:none!important;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(https://cdn.discordapp.com/attachments/776882250297376791/828868291254288414/loadingtk.gif) center no-repeat #fff;
+}
+@media only screen and (min-width: 100px) and (max-width: 480px) {
+.se-pre-con {
+background-size: 350px 350px;
+}
+}
+
+.menu{display:flex;flex-wrap:wrap}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #360066; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #820096; 
+}
+
+@media (min-width:1025px) and (max-width:9999px){
+    #menu-D{
+        display:block;
+        order: 0!important;
+    }
+    #menu-m{
+        display:none;
+    }
+    .menu-user button.tt-drp-lnk {
+    color: #fbfbfb;
+    position: relative;
+    margin: 8px;
+}
+}
+@media (min-width:0px) and (max-width:1024px){
+    #menu-m{
+        padding-left: 3rem;
+    padding-right: 3rem;
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+    top: 8px;
+    display:block;
+    
+    }
+    #menu-D{
+        display:none;
+    }
+    .tt-cont select {
+    width: 200px;
+    background-color: #f2f2f2;
+    display: none;
+}
+#nav-b{
+    z-index:2;
+}
+#home-m{
+    z-index: 2;
+}
+#bar-m{
+    background: transparent!important;
+    border-color: transparent!important;
+}
+.menu li a, .tt-user li a {
+    display: inline-block;
+    vertical-align: top;
+    color: aliceblue;
+    text-align: center;
+    width: 100% !important;
+}
+.menu>li {
+    margin-right: 0rem;
+    color: #fffdfd !important;
+    width: 100%;
+    top: -3rem;
+}
+.menu, .menu-item-has-children .sub-menu, .menu-item-has-children>.sub-menu>li.menu-item-has-children, .menu>li, .tt-ft.on nav, .tt-user li, .tt-user ul {
+    border-color: transparent!important;
+}
+.menu-link.main-menu-link{
+    
+}
+.active{
+    display:none;
+}
+}
+.menu li {
+    text-align: center;
+}
+#icon-lig {
+    margin: 0.5rem -1.79em;
+    font-size: 20px;
+    color: #acabaf;
+    padding: 5px;
+    position: absolute;
+}
+#sumir{display:none;}
+.menu li {
+    cursor: pointer;
+}
+ .menu-item-has-children>a:after{
+    color: aliceblue!important;
+}
